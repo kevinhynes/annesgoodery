@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("fonts/Pacifico.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GrandHotel-Regular";
+  src: url("fonts/GrandHotel-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("fonts/Lobster_1.3.otf") format("opentype");
+}
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url("fonts/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Light";
+  src: url("fonts/Rubik-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Medium";
+  src: url("fonts/Rubik-Medium.ttf") format("truetype");
+}
+body {
+  background: #f1e3cb;
+}
+
+.container-fluid {
+  background: #eadca6;
+}
+
+.header {
+  font-family: "Pacifico";
+  text-align: center;
+  color: darkred;
+  background: #eadca6;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.navigation-bar {
+  font-family: "Rubik-Regular";
+  text-align: center;
+  background: #e2c275;
+}
+.navigation-bar a {
+  color: darkred;
+}
+
+.subheader {
+  font-family: "Rubik-Medium";
+  text-align: center;
+  color: darkred;
+  background: #eadca6;
+  margin-bottom: 0;
+}
+
+.card-img-top {
+  height: 25rem;
+  object-fit: contain;
+}
+
+#rice-krispie-card:hover .card-img-top {
+  content: url("img/fruity_pebble_stack.jpg");
+}
+
+#cherry-pie-card:hover .card-img-top {
+  content: url("img/cherry-pie-stack.jpg");
+}
+
+#oatmeal-pie-card:hover .card-img-top {
+  content: url("img/oatmeal-creampie-stack-600x900.jpg");
+}
+
+#cinnamon-toast-card:hover .card-img-top {
+  content: url("img/cinnamon-toast-crunch-bar-stack.jpg");
+}
+
+.out-of-stock, .hot-item {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.hot-item {
+  background-image: linear-gradient(red, yellow);
+}
+
+.out-of-stock {
+  opacity: 0.6;
+  filter: blur(1.5px);
+}
+
+#about-text {
+  background: #f8f3eb;
+  border: #c36a2d;
+  border-width: 0.5rem;
+  border-style: ridge;
+}
+
+.location-header {
+  font-family: "Rubik-Medium";
+  text-align: center;
+}
+
+ul {
+  font-family: "Rubik-Regular";
+  text-align: center;
+  list-style: none;
+}
+
+.social-header {
+  font-family: "Rubik-Medium";
+  text-align: center;
+}
+
+table {
+  font-family: "Rubik-Regular";
+  margin-left: auto;
+  margin-right: auto;
+}
+table tr {
+  border-collapse: collapse;
+}
+table td {
+  padding: 1rem;
+}
+
+.icon {
+  height: 2rem;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */
