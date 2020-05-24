@@ -22,6 +22,16 @@
   font-family: "Rubik-Medium";
   src: url("fonts/Rubik-Medium.ttf") format("truetype");
 }
+@media (min-width: 500px) {
+  .header::before {
+    content: "Anne's Goodery";
+  }
+}
+@media (max-width: 499px) {
+  .header::before {
+    content: "Anne's";
+  }
+}
 body {
   background: #f1e3cb;
 }

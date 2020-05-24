@@ -35,6 +35,18 @@ $font_red: darkred;
   src: url("fonts/Rubik-Medium.ttf") format("truetype");
 }
 
+
+@media (min-width: 500px) {
+  .header::before {
+      content: "Anne's Goodery";
+  }
+}
+
+@media (max-width: 499px) {
+  .header::before {
+    content: "Anne's";
+  }
+}
 //All
 body {
   background: $gray_beige_two;
